@@ -5,7 +5,7 @@ body{
 nav{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    /* gap: 50px; */
     padding: 20px;
     background-color: #333;
     padding-bottom: 0;
@@ -20,19 +20,14 @@ button{
     display: inline-block;
     font-size: 16px;
     /* margin: 4px 2px; */
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     cursor: pointer;
-    border-radius: 14px;
+    /* border-radius: 14px; */
     transition: background-color 0.3s ease;
 }
-button:hover {
-    background-color: #45a049;
-    box-shadow: 0 1px 6px blue;
-}
-button:focus {
-    outline: none;
-    transform: translateY(2px);
-    box-shadow: 0 0 0 3px rgba(72, 201, 176, 0.5);
+button:hover ,.focused{
+    background-color: #8fa890;
+    /* box-shadow: 0 1px 6px blue; */
 }
 .home-headline{
     text-align: center;
